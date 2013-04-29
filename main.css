@@ -34,4 +34,17 @@ li a:active {
   background-position: 0 15px;
 }
 
+.next {
+  width: 15px;
+  height: 15px;
+  background-size: 15px 15px;
+  background-image:url("next.png");
+}
+
+.prev {
+  width: 15px;
+  height: 15px;
+  background-size: 15px 15px;
+  background-image:url("prev.png");
+}
 
