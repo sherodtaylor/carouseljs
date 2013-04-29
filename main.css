@@ -1,0 +1,37 @@
+img {
+  width: 600px;
+  height: 400px;
+  position: absolute;
+  left: 0px;
+  top:0px;
+}
+.carousel {
+  position: relative;
+  height:400px;
+}
+ul {
+  list-style-type: none;
+  display:inline-block;
+  width:300px;
+}
+li {
+  position: relative;
+  height:45px;
+  display:inline-block;
+  margin: 10px;
+}
+li a {
+  width:15px;
+  overflow:hidden;
+  text-indent:999px;
+  height:15px;
+  position: absolute;
+  background-image:url("dots.png");
+  z-index:1;
+}
+
+li a:active {
+  background-position: 0 15px;
+}
+
+
